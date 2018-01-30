@@ -14,7 +14,7 @@ Who is your intended user? (For example, is this an app for dog owners? Families
 Anyone who wants to see the local ads or find a job posting, kids sports activities.
 Features
 
-## List the main features of your app. For example:
+## Main features of app.
 •	Post ads
 •	Upload pictures
 •	Store and Retrieve data from Firebase DataBase and Storage
