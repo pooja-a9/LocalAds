@@ -1,8 +1,6 @@
 # LocalAds
 ## Description 
 
-Write a brief summary of what your app does. What problem does your app solve? 
-
 It allows the users to post an Ad or look for a job opportunity or some Entertainment, Education, Beauty Services, Craft Works, and Business. 
 
 Usually every city or community have their own sites for the local ads. In order to access that information we need to search for their sites for particular cities that we wanted to post an ad.
