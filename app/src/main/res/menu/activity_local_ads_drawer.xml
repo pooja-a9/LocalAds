@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rental"
+            android:icon="@drawable/ic_location_city_black"
+            android:title="@string/rentals" />
+        <item
+            android:id="@+id/nav_cars"
+            android:icon="@drawable/ic_car_black"
+            android:title="@string/cars" />
+        <item
+            android:id="@+id/nav_group"
+            android:icon="@drawable/ic_group_black"
+            android:title="@string/group_activities" />
+        <item
+            android:id="@+id/nav_education"
+            android:icon="@drawable/ic_school_black"
+            android:title="@string/education" />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/ic_restaurant_black"
+            android:title="@string/restaurants" />
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/ic_rowing_black"
+            android:title="@string/sports_events" />
+    </group>
+
+</menu>

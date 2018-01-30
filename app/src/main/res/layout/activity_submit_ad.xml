@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/submit_ad_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    tools:context="com.pooja.anche.localads.SubmitAdActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/submit_layout_margin"
+        android:layout_marginStart="@dimen/submit_layout_margin"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/submit_label"
+            android:text="@string/ad_type_lable"
+            android:labelFor="@id/adType_spinner"/>
+
+        <Spinner
+            android:id="@+id/adType_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/submit_margin"
+            android:entries="@array/ad_types"
+            android:prompt="@string/submit_ad_spinner_prompt" />
+
+        <TextView
+            style="@style/submit_label"
+            android:text="@string/ad_title_lable"
+            android:labelFor="@id/ad_title"/>
+
+        <EditText
+            android:id="@+id/ad_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/submit_margin"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            style="@style/submit_label"
+            android:text="@string/ad_desc_lable"
+            android:labelFor="@id/ad_title_desc"/>
+
+        <EditText
+            android:id="@+id/ad_title_desc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/submit_address"
+            android:layout_marginStart="@dimen/submit_margin"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            style="@style/submit_label"
+            android:text="@string/phone_lable"
+            android:labelFor="@id/ad_phone"/>
+
+
+        <EditText
+            android:id="@+id/ad_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/submit_margin"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <TextView
+            style="@style/submit_label"
+            android:text="@string/email_lable"
+            android:labelFor="@id/ad_email"/>
+
+        <EditText
+            android:id="@+id/ad_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/submit_margin"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            style="@style/submit_label"
+            android:text="@string/address_lable"
+            android:labelFor="@id/ad_address"/>
+
+        <EditText
+            android:id="@+id/ad_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/submit_margin"
+            android:ems="10"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            style="@style/submit_label"
+            android:text="@string/submit_state"
+            android:labelFor="@id/adType_state_spinner"/>
+
+        <Spinner
+            android:id="@+id/adType_state_spinner"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/submit_margin"
+            android:entries="@array/us_states"
+            android:prompt="@string/submit_ad_state" />
+
+        <TextView
+            style="@style/submit_label"
+            android:text="@string/submit_city"
+            android:labelFor="@id/ad_address_city"/>
+
+        <EditText
+            android:id="@+id/ad_address_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/submit_margin"
+            android:ems="10" />
+
+        <TextView
+            style="@style/submit_label"
+            android:text="@string/submit_zip"
+            android:labelFor="@id/ad_address_zip"/>
+
+
+        <EditText
+            android:id="@+id/ad_address_zip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/submit_margin"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="5"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/submit_margin"
+            android:layout_marginTop="@dimen/submit_margin"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/image_sub_layout"
+                layout="@layout/include_image_pager"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="@dimen/submit_layout_margin" />
+
+            <TextView
+                android:id="@+id/image_count"
+                style="@style/submit_total_label"
+                android:layout_toEndOf="@+id/image_sub_layout"
+                android:gravity="end"/>
+
+            <Button
+                android:id="@+id/submit_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/image_sub_layout"
+                android:layout_marginStart="@dimen/submit_margin"
+                android:onClick="uploadImages"
+                android:text="@string/upload_btn"
+                android:contentDescription="@string/upload_btn"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/image_sub_layout"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/submit_margin"
+                android:onClick="submitAd"
+                android:text="@string/submit_btn"
+                android:contentDescription="@string/submit_local_ad"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+

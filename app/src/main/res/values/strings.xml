@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">LocalAds</string>
+    <string name="title_activity_local_ads">LocalAdsActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="rentals">Rentals</string>
+    <string name="cars">Cars</string>
+    <string name="group_activities">Group Activities</string>
+    <string name="education">Education</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="sports_events">Sports Events</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">94043</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_notification_group">Alert Me when a New Local Ad posted on</string>
+
+    <!--Submit Ad Strings -->
+    <string name="submit_ad_spinner_prompt">Select Ad Type</string>
+    <string name="ad_type_lable">Ad Type:</string>
+    <string name="ad_title_lable">Ad Title:</string>
+    <string name="ad_desc_lable">Ad Desc:</string>
+    <string name="phone_lable">Phone:</string>
+    <string name="email_lable">Email:</string>
+    <string name="address_lable">Address:</string>
+    <string name="submit_btn">Submit</string>
+    <string name="upload_btn">Upload Image</string>
+    <string name="submit_city">City:</string>
+    <string name="submit_state">State:</string>
+    <string name="submit_zip">Zip:</string>
+    <string name="submit_ad_state">Select State</string>
+    <string name="submit_image_count">Total Images: %d</string>
+
+    <string-array name="ad_types">
+        <item>Cars</item>
+        <item>Restaurants</item>
+        <item>Education</item>
+        <item>Group Activity</item>
+        <item>Sports</item>
+        <item>Rentals</item>
+    </string-array>
+    <string-array name="us_states">
+        <item>AL</item>
+        <item>AK</item>
+        <item>AS</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>DC</item>
+        <item>FM</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>GU</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MH</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>MP</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PW</item>
+        <item>PA</item>
+        <item>PR</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VI</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+    <string name="add_widget">Add widget</string>
+
+    <string name="empty_string">\"Please select Local Ad in App\"</string>
+    <string name="uploaded_image_txt">Uploaded Image</string>
+    <string name="author_name">Author Name</string>
+    <string name="phone_contact">Phone Contact</string>
+    <string name="contact_address">Contact Address</string>
+    <string name="logged_in_user_image">Logged in User Image</string>
+    <string name="submit_local_ad">Submit Local Ad</string>
+    <string name="add_local_ad">Add Local Ad</string>
+    <string name="sample_email">android.studio@android.com</string>
+    <string name="select_pic_failed">Select picture failed.</string>
+    <string name="load_ad_failed">Failed to load Local Ad.</string>
+</resources>

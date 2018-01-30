@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:padding="@dimen/widget_margin"
+    android:id="@+id/widget_layout">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/widget_listview"
+        tools:listitem="@layout/local_ad_widget_list"
+        />
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/empty_string"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

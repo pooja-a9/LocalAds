@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="user_profile_size">76dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="submit_margin">25dp</dimen>
+    <dimen name="submit_hori_margin">50dp</dimen>
+    <dimen name="submit_address">78dp</dimen>
+    <dimen name="submit_label">20sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="submit_layout_margin">10dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

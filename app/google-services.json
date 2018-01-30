@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "390694543323",
+    "firebase_url": "https://localads-247db.firebaseio.com",
+    "project_id": "localads-247db",
+    "storage_bucket": "localads-247db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390694543323:android:8ea7ac0e4e92bb0a",
+        "android_client_info": {
+          "package_name": "com.pooja.anche.localads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390694543323-1bslm2bk41sfvs7i0b4hvf79qdn9skr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pooja.anche.localads",
+            "certificate_hash": "38321f2b494ad60825079ea8eb3379f54db766e0"
+          }
+        },
+        {
+          "client_id": "390694543323-m9qg40lbttf2mqcvv09ikuec0pluc760.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pooja.anche.localads",
+            "certificate_hash": "87e79d6be2209ea7382cea5067528b66ed74b9b9"
+          }
+        },
+        {
+          "client_id": "390694543323-4sfbdjkq12vbpdkiuv37fnlsnd7n8uis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArgOg4tAoqMg_teffhPPUTJq2ua7tMCpc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390694543323-4sfbdjkq12vbpdkiuv37fnlsnd7n8uis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
