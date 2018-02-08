@@ -25,3 +25,4 @@ Features
 * Generate a Signing Key for your App
 * Follow the Instructions in https://firebase.google.com/docs/android/setup?authuser=1 to register your App in Firebase
 * Once the file google-services.json is copied to the project directory run the App in Android Studio.
+
