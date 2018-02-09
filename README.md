@@ -10,9 +10,7 @@ Not sure how to write a good description? Search 5-star apps on the Play Store f
 
 ## Intended User
 
-Who is your intended user? (For example, is this an app for dog owners? Families? Students? Travelers?)
 Anyone who wants to see the local ads or find a job posting, kids sports activities.
-Features
 
 ## Main features of app.
 •	Post ads
